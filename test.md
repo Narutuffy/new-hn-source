@@ -149,7 +149,7 @@ enableToc: True
 # - This follows the same rules as a post create and update
 # flow as well as the slug rules mentioned since
 # beginning of this manual.
-saveAsDraft: True
+saveAsDraft: true
  
  
 # Note:

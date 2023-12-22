@@ -1,4 +1,5 @@
 ---
+title: publication title is amazing 1
 subtitle: An example subtitle
 slug: sdlkfj-dsf
 tags: reactjs, css, python, nodejs

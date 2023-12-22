@@ -34,7 +34,7 @@ tags: go
 # - The publication domain name that you want to publish the post to.
 # This should be a valid domain name only.
 # - You should be an ADMIN of the publication to publish.
-domain: de.blog.postrausch.tech
+domain: testvamsiteam.hashnode.dev  
  
 # Subtitle of the post
 # String | Optional

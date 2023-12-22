@@ -1,4 +1,5 @@
 ---
+title: Commitit
 subtitle: An example subtitle
 slug: post-from-github-as-source-sdfdf
 tags: reactjs, css, python, nodejs

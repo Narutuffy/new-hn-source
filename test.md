@@ -1,26 +1,159 @@
 ---
-
+# Post Title
+# String | *REQUIRED*
+# Ex: Top 4 React UI Libraries for 2023
 title: Künstliche Intelligenz - Die Zukunft der Suchmaschinen?
  
+# Post Slug
+# What is slug? https://www.semrush.com/blog/what-is-a-url-slug
+# String | *REQUIRED*
+# Ex: top-4-react-ui-libraries-for-2023
+# - This is the URL of the post. It should be unique and should not be used by any other post.
+# - If you use the same slug of an existing post, the existing post will be updated.
+# - In order to let users update the post SLUG, we depend on the post slug as well
+# as it's path in the repo.
+# - If you change both path and slug of the post, the post will be treated as a new post and
+# will be published with a new slug.
+# - If you change only the slug of the post, the post will be updated with the new slug.
+# - If you change only the path of the post, the post will be will be updated with new path
+# and any other changes along with it if any.
 slug: KISM
  
+# Tags
+# String (comma-separated tag slugs) | *REQUIRED*
+# Ex: reactjs, css, python, nodejs
+# Upto 5 tag slugs
+# - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
+# You can also update a post to edit this later.
 tags: Suchmaschinen, Künstliche, Intelligenz
-
+ 
+# Publication Domain (hashnode.dev subdomain or your custom domain)
+# String | *REQUIRED*
+# Ex: townhall.hashnode.com
+# - This can also be a hashnode.dev subdomain as well.
+# - The publication domain name that you want to publish the post to.
+# This should be a valid domain name only.
+# - You should be an ADMIN of the publication to publish.
 domain: testvamsiteam.hashnode.dev  
-
-subtitle: Ist KI die Zukunft der Suchmaschinen? - Spoiler: Nein!
  
-ignorePost: false
+# Subtitle of the post
+# String | Optional
+# Ex: A curated list of the best React UI libraries for 2023
+subtitle: "Ist KI die Zukunft der Suchmaschinen? - Spoiler: Nein!"
  
-hideFromHashnodeCommunity: true
+# Cover Image URL of the post
+# String | Optional
+# Note: You must upload the image to Hashnode's CDN, before you can use it here.
+# Ex: https://cdn.hashnode.com/res/hashnode/image/upload/v1681132538878/itnaYF1h-.png
+# - To upload, Login to Hashnode and go to https://hashnode.com/uploader
+# Use the URL that is generated after the upload.
+cover:
  
+# Should the post be ignored? When true it will not be picked up by Hashnode.
+# Boolean | Optional
+# Default value: false
+# Ex: true
+# - It's useful when you want to keep the post in your repo but don't
+# want it to be picked up by Hashnode.
+ignorePost: False
+ 
+# Publish on behalf of a team publication member
+# String | Optional | *WORKS WITH TEAM PUBLICATION ONLY*
+# Ex: sandeep
+# - Does not have any effect in drafts. It will be ignored in drafts.
+# But once you convert the draft to post, it will be respected
+# - This resembles the Change of author from article settings of a
+# team publication in Hashnode editor.
+# - Fails if the user is not a member of the team publication or
+# if the publication is not a team publication
+publishAs:
+ 
+# Canonical URL of the post
+# String | Optional
+# What is a canonical URL? https://moz.com/learn/seo/canonicalization
+# Ex: https://www.hashnode.com/post/top-4-react-ui-libraries-for-2023
+# - This is equivalent to original URL option present in draft settings
+# of a post in Hashnode editor.
+# - This is useful when you want to publish a post that is already
+# published on another platform.
+canonical:
+ 
+ 
+# Hide from Hashnode Community
+# Boolean | Optional
+# Default value: false // by default the post will be visible in the Hashnode's public feed.
+# Ex: true
+# - This is equivalent to "HIDE ARTICLE FROM HASHNODE FEED" option
+# present in draft settings of a post in Hashnode editor.
+# - This is useful when you want to publish a post to your publication
+# only but hide it from the Hashnode's public feed.
+# - You can also update a post to enable/disable this later.
+hideFromHashnodeCommunity: True
+ 
+# SEO Title
+# String | Optional
+# Ex: Top 4 React UI Libraries for 2023
+# - This is equivalent to SEO TITLE option present in draft settings
+# of a post in Hashnode editor.
+# - You can also update a post to update this later.
 seoTitle: Künstliche Intelligenz - Die Zukunft der Suchmaschinen?
  
-disableComments: true
+# SEO Description
+# String | Optional
+# Ex: A curated list of the best React UI libraries for 2023
+# - This is equivalent to SEO DESCRIPTION option present in
+# draft settings of a post in Hashnode editor.
+# - You can also update a post to update this later.
+seoDescription:
  
-enableToc: true
+# Disable comments for a post
+# Boolean | Optional
+# Default value: false // by default the comments will be enabled for the post.
+# Ex: true
+# - This is equivalent to "DISABLE COMMENTS" option present in
+# draft settings of a post in Hashnode editor.
+# - You can also update a post to enable/disable this later.
+disableComments: True
  
-saveAsDraft: true
+# Slug of the series that you want your post to be a part of
+# String | Optional
+# Ex: react-series
+# - This is equivalent to "ADD TO A SERIES" option present in
+# draft settings of a post in Hashnode editor.
+# - If invalid series is given, the post will not be added to any series.
+# - You can update the post again to correct it later.
+# - You can find series information from the series section in your publication dashboard.
+# You can also edit the series information from there.
+seriesSlug:
+ 
+# Table of contents
+# Boolean | Optional
+# Default value: false // by default the table of contents will not be added to the post.
+# Ex: true
+# - This is equivalent to "GENERATE TABLE OF CONTENTS" option
+# present in draft settings of a post in Hashnode editor.
+# - If true, the table of contents will be added to the post.
+# - You can also update a post to enable/disable this later.
+enableToc: True
+ 
+# Save post as draft
+# Boolean | Optional
+# Default value: false // by default the post will be published.
+# Ex: true
+# - If true, the post will be saved as a draft.
+# - You can also update a draft with all the above attributes.
+# - This draft will be available under Drafts section of the
+# left sidebar in your publication dashboard.
+# - Note: Once you remove this attribute, the post will be
+# published and removed from drafts automatically.
+# - This follows the same rules as a post create and update
+# flow as well as the slug rules mentioned since
+# beginning of this manual.
+saveAsDraft: True
+ 
+ 
+# Note:
+# Newsletter and Post scheduling is NOT supported as of now.
  
 ---
 
@@ -51,12 +184,12 @@ GPT ist ein sogenanntes "Large Language Model", ein großes Sprachmodell, das mi
 Dazu werden im Wesentlichen zwei Techniken eingesetzt:
 
 1. Unbeaufsichtigtes Lernen bedeutet, dass das Programm Daten aus dem Trainingssatz verarbeitet, um zu "lernen". Es bestimmt also die einzelnen Parameter natürlicher Sprache und versteht den Aufbau von Sätzen.
-   Im Grunde funktioniert es dabei ein bisschen wie beim Erlernen einer Sprache: Zuerst musst du die Vokabeln lernen, um zu verstehen, wie du bestimmte Worte korrekt benutzt.
+Im Grunde funktioniert es dabei ein bisschen wie beim Erlernen einer Sprache: Zuerst musst du die Vokabeln lernen, um zu verstehen, wie du bestimmte Worte korrekt benutzt.
 1. Beaufsichtigtes Lernen kann man sich wie eine Sprachreise in ein anderes Land vorstellen.
-   Dabei lernt man den Kontext, in dem die Sprache verwendet wird, kennen.
-   Man kann sich das sehr gut an dem englischen Wort "funny" verdeutlichen. Die Vokabel sagt korrekt übersetzt "lustig". Wenn man jedoch in England ist, wird "funny" häufiger in der Bedeutung "komisch" verwendet. Mit ChatGPT wird ein Text vorgelegt und dazu die Bedeutung des Texts erklärt, sodass die einzelnen Wörter einen Kontext bekommen und dem Programm klar wird, wie es welche Worte verwenden muss.
-   Das wichtigste Merkmal des Sprachmodells ist die Ausgabe von Wahrscheinlichkeiten. Das Programm sagt nur den nächsten Buchstaben, das nächste Wort und den nächsten Satz voraus.
-   Es ist häufig möglich, eine andere Antwort zu generieren, indem man einfach die Frage wiederholt. Daher sind die Informationen eines Sprachmodells nicht immer korrekt.
+Dabei lernt man den Kontext, in dem die Sprache verwendet wird, kennen.
+Man kann sich das sehr gut an dem englischen Wort "funny" verdeutlichen. Die Vokabel sagt korrekt übersetzt "lustig". Wenn man jedoch in England ist, wird "funny" häufiger in der Bedeutung "komisch" verwendet. Mit ChatGPT wird ein Text vorgelegt und dazu die Bedeutung des Texts erklärt, sodass die einzelnen Wörter einen Kontext bekommen und dem Programm klar wird, wie es welche Worte verwenden muss.
+Das wichtigste Merkmal des Sprachmodells ist die Ausgabe von Wahrscheinlichkeiten. Das Programm sagt nur den nächsten Buchstaben, das nächste Wort und den nächsten Satz voraus.
+Es ist häufig möglich, eine andere Antwort zu generieren, indem man einfach die Frage wiederholt. Daher sind die Informationen eines Sprachmodells nicht immer korrekt.
 
 Für diesen Beitrag reicht eine oberflächliche Betrachtung aus. Wenn du weitere Informationen benötigst, empfehle ich dir folgende Quellen:
 

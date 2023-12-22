@@ -25,7 +25,7 @@ slug: KISM
 # Upto 5 tag slugs
 # - You can find tags information from here https://github.com/Hashnode/support/blob/main/misc/tags.json
 # You can also update a post to edit this later.
-tags: Suchmaschinen, Künstliche, Intelligenz
+tags: css
  
 # Publication Domain (hashnode.dev subdomain or your custom domain)
 # String | *REQUIRED*

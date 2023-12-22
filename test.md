@@ -55,7 +55,7 @@ subtitle: Ist KI die Zukunft der Suchmaschinen? - Spoiler: Nein!
 # Ex: true
 # - It's useful when you want to keep the post in your repo but don't
 # want it to be picked up by Hashnode.
-ignorePost: False
+ignorePost: false
  
 # Publish on behalf of a team publication member
 # String | Optional | *WORKS WITH TEAM PUBLICATION ONLY*
@@ -88,7 +88,7 @@ ignorePost: False
 # - This is useful when you want to publish a post to your publication
 # only but hide it from the Hashnode's public feed.
 # - You can also update a post to enable/disable this later.
-hideFromHashnodeCommunity: True
+hideFromHashnodeCommunity: true
  
 # SEO Title
 # String | Optional
@@ -113,7 +113,7 @@ seoTitle: Künstliche Intelligenz - Die Zukunft der Suchmaschinen?
 # - This is equivalent to "DISABLE COMMENTS" option present in
 # draft settings of a post in Hashnode editor.
 # - You can also update a post to enable/disable this later.
-disableComments: True
+disableComments: true
  
 # Slug of the series that you want your post to be a part of
 # String | Optional
@@ -134,7 +134,7 @@ disableComments: True
 # present in draft settings of a post in Hashnode editor.
 # - If true, the table of contents will be added to the post.
 # - You can also update a post to enable/disable this later.
-enableToc: True
+enableToc: true
  
 # Save post as draft
 # Boolean | Optional

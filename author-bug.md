@@ -2,9 +2,9 @@
 title: Author Bug Debugging
 subtitle: An example subtitle
 slug: author-bug
-saveAsDraft: true
 hideFromHashnodeCommunity: true
 tags: julia, programming
+publishAs: vamsirao
 domain: testvamsiteam.hashnode.dev
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1649662225945/7f_c6UxhR.jpg?auto=compress
 ---

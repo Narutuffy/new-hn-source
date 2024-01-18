@@ -3,7 +3,7 @@ title: Author Bug Debugging
 subtitle: An example subtitle
 slug: author-bug-1
 hideFromHashnodeCommunity: true
-publishAs: vamsirao
+publishAs: lakbychance
 tags: julia, programming
 domain: testvamsiteam.hashnode.dev
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1649662225945/7f_c6UxhR.jpg?auto=compress

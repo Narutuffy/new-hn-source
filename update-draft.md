@@ -4,6 +4,7 @@ subtitle: An example subtitle
 slug: update-draft-author-bug
 saveAsDraft: true
 hideFromHashnodeCommunity: true
+publishAs: vamsirao
 tags: julia, programming
 domain: testvamsiteam.hashnode.dev
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1649662225945/7f_c6UxhR.jpg?auto=compress

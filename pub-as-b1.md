@@ -5,7 +5,7 @@ subtitle: HN A step by step walkthrough on how to enable developer mode in Chrom
 tags: browser-extensions, chrome-developer-mode
 domain: testvamsiteam.hashnode.dev 
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1704261826938/21URL7TKo.jpg?auto=format
-enableToc: true
+enableToc: 
 seriesSlug:
 
 publishAs: vamsi181

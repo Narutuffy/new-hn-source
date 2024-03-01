@@ -13,7 +13,7 @@ publishAs: vamsi181
 seoTitle:
 seoDescription:
 canonical:
-saveAsDraft: true
+saveAsDraft: false
 ignorePost:
 disableComments:
 hideFromHashnodeCommunity: true
